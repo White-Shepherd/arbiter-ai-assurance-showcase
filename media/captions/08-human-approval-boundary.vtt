@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:15.000
+We’ve reached the most important boundary in the workflow. Arbiter says this candidate is ready to approve, while the human decision is still pending. Those are deliberately different states.
+
+2
+00:00:15.000 --> 00:00:30.000
+Before deciding, the reviewer can confirm the exact candidate commit, verified evidence integrity, and the passing final validation. Approval is tied to this candidate—not whatever happens to be in the workspace later.
+
+3
+00:00:30.000 --> 00:00:45.000
+If anything feels unclear, we can step back into the evidence, inspect an artifact, and return without changing the decision state. Review comes before the irreversible human judgment.
+
+4
+00:00:45.000 --> 00:01:00.000
+Now we’ll click Approve. Arbiter still doesn’t act on our behalf. It opens a deliberate confirmation that identifies the candidate and explains what the human decision means.
+
+5
+00:01:00.000 --> 00:01:15.000
+Phase One records an asserted local actor, and the interface says plainly that this identity isn’t authenticated. That limitation matters, so the video—and the product—should never hide it.
+
+6
+00:01:15.000 --> 00:01:30.000
+We’ll step away without submitting. The candidate remains ready, the evidence remains intact, and human approval remains pending. Automation has done its job—and stopped exactly where human control begins.

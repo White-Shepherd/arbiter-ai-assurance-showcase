@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:15.000
+Let’s start where trustworthy automation should start: with a human-defined boundary. This authorization says what we’re changing, why we’re changing it, and which parts of the repository are completely off limits.
+
+2
+00:00:15.000 --> 00:00:30.000
+We also spell out what the agent must not do, plus the checks Arbiter will require later. Once that contract is clear, we can start the workload without giving the agent open-ended authority.
+
+3
+00:00:30.000 --> 00:00:45.000
+Before any code changes, Arbiter captures the repository baseline. Think of this as our clean reference point: branch, commit, working-tree state, and the checks that describe what existed before the agent touched anything.
+
+4
+00:00:45.000 --> 00:01:00.000
+Now we’ll open the Change view. The same authorization is visible here for review, so we’re not relying on a terminal message or the agent’s memory of the task.
+
+5
+00:01:00.000 --> 00:01:15.000
+Requirements, allowed paths, protected paths, and prohibited actions all travel with the run. That makes scope review concrete—and gives independent validation something precise to challenge.
+
+6
+00:01:15.000 --> 00:01:30.000
+At this point, we haven’t decided whether the work is good. We’ve simply established who authorized it and exactly where it started. That foundation is what makes every later verdict explainable.

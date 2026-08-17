@@ -1,0 +1,23 @@
+{
+  "classification": "DETERMINISTIC_FIXTURE_DEMONSTRATION",
+  "executor": "FIXTURE",
+  "candidateHistory": [
+    {
+      "ordinal": 1,
+      "engineeringChecks": "PASS",
+      "independentAuthentication": "FAIL",
+      "validationVerdict": "FAIL"
+    },
+    {
+      "ordinal": 2,
+      "cause": "SCOPED_REMEDIATION",
+      "fullValidationChecksPassed": 15,
+      "fullValidationChecksTotal": 15,
+      "validationVerdict": "PASS"
+    }
+  ],
+  "evidenceIntegrity": "VERIFIED",
+  "auditIntegrity": "VERIFIED",
+  "arbiterVerdict": "READY_TO_APPROVE",
+  "humanDecision": "PENDING"
+}

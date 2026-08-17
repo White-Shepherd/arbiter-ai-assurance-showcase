@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:15.000
+Now we switch roles. The Change Agent is finished, and an independent Arbiter validator takes over. We’ll open Validation and start with Run One—the original result.
+
+2
+00:00:15.000 --> 00:00:30.000
+Run One failed, and that result stays visible even though remediation later succeeds. Arbiter never edits a failure into a pass. It adds a new validation run to the history.
+
+3
+00:00:30.000 --> 00:00:45.000
+Let’s open the blocking security check. The application’s own tests looked healthy, but Arbiter challenged the authentication boundary separately—and found behavior those tests didn’t catch.
+
+4
+00:00:45.000 --> 00:01:00.000
+The expected result was an unauthorized response. What Arbiter actually observed was success. That difference is the heart of the finding: protected behavior changed even though the normal build stayed green.
+
+5
+00:01:00.000 --> 00:01:15.000
+Because this check is blocking, the validation verdict is fail. And because the observation points to evidence, a reviewer can inspect the underlying artifact instead of taking the validator’s word for it.
+
+6
+00:01:15.000 --> 00:01:30.000
+This is the trust boundary in action. A successful agent run is only a claim. Independent checks, findings, and evidence determine whether that candidate deserves to move forward.

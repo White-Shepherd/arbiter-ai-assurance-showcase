@@ -1,0 +1,82 @@
+WEBVTT`r`n`r`n1
+00:00:00.050 --> 00:00:07.018
+Let me show you how Arbiter turns an AI-generated change into a decision you can actually trust.
+2
+00:00:07.018 --> 00:00:11.953
+Right here. we have one authoritative verdict: ready to approve.
+
+3
+00:00:11.953 --> 00:00:17.135
+The evidence is verified... but notice. the human decision is still pending.
+
+4
+00:00:17.135 --> 00:00:24.101
+Now. when we open Change. Arbiter connects the original authorization to an immutable Git candidate.
+
+5
+00:00:24.101 --> 00:00:29.466
+We can see exactly what changed—and whether that change stayed inside its approved scope.
+
+6
+00:00:29.466 --> 00:00:32.408
+Validation is where this gets interesting.
+
+7
+00:00:32.408 --> 00:00:33.736
+Run One failed.
+
+8
+00:00:33.736 --> 00:00:36.041
+That result never disappears.
+
+9
+00:00:36.041 --> 00:00:42.005
+After remediation. Run Two performs the full validation again... and passes.
+
+10
+00:00:42.005 --> 00:00:46.549
+We can move between both outcomes. so the audit story stays intact.
+
+11
+00:00:46.549 --> 00:00:56.341
+Open any check. and the conclusion becomes explainable: what we expected. what Arbiter actually observed. and which evidence supports the result.
+
+12
+00:00:56.341 --> 00:01:01.458
+Over in Evidence. every artifact is persisted and traceable.
+
+13
+00:01:01.458 --> 00:01:11.471
+Open a record and you get its producer. source. portable path. SHA-256 digest. and independently verified integrity.
+
+14
+00:01:11.471 --> 00:01:21.627
+History then reconstructs the whole trust loop—from authorization and baseline. through failure and remediation. all the way to readiness.
+
+15
+00:01:21.627 --> 00:01:23.398
+And here's the key boundary.
+
+16
+00:01:23.398 --> 00:01:25.625
+Arbiter has done the validation.
+
+17
+00:01:25.625 --> 00:01:29.244
+The exact candidate is eligible for approval.
+
+18
+00:01:29.244 --> 00:01:31.093
+But automation stops here.
+
+19
+00:01:31.093 --> 00:01:34.804
+A named human still owns the final decision.
+
+20
+00:01:34.804 --> 00:01:40.768
+We can review the action. confirm the candidate. and deliberately approve—or step away.
+
+21
+00:01:40.768 --> 00:01:48.281
+That separation is the point: independent assurance. durable evidence. and human control where it matters.

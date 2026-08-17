@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:15.000
+Run One found a blocking authentication regression, so this candidate can’t move to approval. The next step is remediation—but the failed run remains part of the permanent record.
+
+2
+00:00:15.000 --> 00:00:30.000
+The remediation agent receives the specific finding, the failed candidate, and the same authorization boundary. It’s fixing an observed problem, not quietly redefining the task.
+
+3
+00:00:30.000 --> 00:00:45.000
+When the fix is complete, Arbiter captures a new candidate commit. Candidate One still exists. Candidate Two is a separate immutable change that must earn its own validation result.
+
+4
+00:00:45.000 --> 00:01:00.000
+Back in Change, we can switch between both candidates. That makes the remediation visible at repository level and prevents the original failure from disappearing behind the latest state.
+
+5
+00:01:00.000 --> 00:01:15.000
+Validation works the same way. Run One remains failed. Run Two is a fresh execution against Candidate Two. Arbiter doesn’t rerun only the check that caught the bug.
+
+6
+00:01:15.000 --> 00:01:30.000
+The full suite passes on the remediated candidate, while the earlier failure remains visible beside it. That append-only story is what lets a reviewer trust how the result changed.

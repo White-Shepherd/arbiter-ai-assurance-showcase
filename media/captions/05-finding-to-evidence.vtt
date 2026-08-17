@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:15.000
+A useful finding should answer more than ‘what failed?’ Let’s open the authentication regression and follow the full explanation from observation to persisted evidence.
+
+2
+00:00:15.000 --> 00:00:30.000
+We immediately get a real title, severity, blocking status, and lifecycle state. Arbiter doesn’t invent friendly defaults when required information is missing; malformed findings are rejected.
+
+3
+00:00:30.000 --> 00:00:45.000
+Next comes the explanation: what Arbiter observed, what the requirement expected, why the difference matters, and which files are involved. That’s enough context for a human or remediation agent to act.
+
+4
+00:00:45.000 --> 00:01:00.000
+Now we’ll click the evidence reference. This isn’t a screenshot of a status badge. It resolves to the actual persisted artifact bound to this finding and validation run.
+
+5
+00:01:00.000 --> 00:01:15.000
+The evidence record tells us who produced it, where it came from, its portable artifact path, and its SHA-256 digest. Those fields let another system verify the same bytes later.
+
+6
+00:01:15.000 --> 00:01:30.000
+And the integrity result is verified server-side, not calculated in this browser. The finding is explainable, the artifact is traceable, and the reviewer can independently check the chain.

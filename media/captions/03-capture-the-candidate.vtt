@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:15.000
+With authorization and baseline locked in, the Change Agent can begin. Notice that it starts from a specific commit. That keeps this run tied to the repository state we actually approved.
+
+2
+00:00:15.000 --> 00:00:30.000
+Arbiter records externally observable actions: commands, timestamps, results, and changed files. It doesn’t collect hidden reasoning. We care about what the agent did and what it produced.
+
+3
+00:00:30.000 --> 00:00:45.000
+When the work is complete, Arbiter captures an immutable candidate commit. This is important: validation won’t run against a vague workspace. It runs against this exact engineering change.
+
+4
+00:00:45.000 --> 00:01:00.000
+In the interface, the candidate selector lets us move between the original change and the remediated version without losing either one. Each candidate keeps its own commit identity.
+
+5
+00:01:00.000 --> 00:01:15.000
+Here’s the practical review: files changed, additions, deletions, and the backend-evaluated scope result. These numbers come from persisted run evidence—not a browser-side guess.
+
+6
+00:01:15.000 --> 00:01:30.000
+We can inspect every affected path and confirm whether dependencies changed. Now we have a stable candidate that another actor can challenge independently. That’s where validation begins.

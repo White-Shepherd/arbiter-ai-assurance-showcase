@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "series": "Arbiter click-by-click",
+  "videoFormat": "H.264 MP4, 1440x900, 25 fps",
+  "audioFormat": "AAC mono, conversational neural narration",
+  "captions": "English WebVTT sidecar",
+  "sourceRunId": "RUN-canonical-evidence-binding-20260817-1",
+  "videos": [
+    {"number": 2, "title": "Authorize the work and capture the baseline", "video": "videos/02-authorize-and-baseline.mp4", "captions": "captions/02-authorize-and-baseline.vtt", "targetDurationSeconds": 90},
+    {"number": 3, "title": "Capture the AI-generated candidate", "video": "videos/03-capture-the-candidate.mp4", "captions": "captions/03-capture-the-candidate.vtt", "targetDurationSeconds": 90},
+    {"number": 4, "title": "Run independent validation", "video": "videos/04-independent-validation.mp4", "captions": "captions/04-independent-validation.vtt", "targetDurationSeconds": 90},
+    {"number": 5, "title": "Follow a finding to its evidence", "video": "videos/05-finding-to-evidence.mp4", "captions": "captions/05-finding-to-evidence.vtt", "targetDurationSeconds": 90},
+    {"number": 6, "title": "Remediate without rewriting history", "video": "videos/06-remediate-with-history.mp4", "captions": "captions/06-remediate-with-history.vtt", "targetDurationSeconds": 90},
+    {"number": 7, "title": "Revalidate and reconstruct the audit trail", "video": "videos/07-revalidate-and-reconstruct.mp4", "captions": "captions/07-revalidate-and-reconstruct.vtt", "targetDurationSeconds": 90},
+    {"number": 8, "title": "Stop automation at human approval", "video": "videos/08-human-approval-boundary.mp4", "captions": "captions/08-human-approval-boundary.vtt", "targetDurationSeconds": 90}
+  ]
+}

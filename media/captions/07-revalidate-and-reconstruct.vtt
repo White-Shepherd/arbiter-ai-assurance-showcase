@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:15.000
+Candidate Two has completed a full revalidation, and Run Two passes. Before we call it ready, let’s make sure the result is reproducible and the history can be reconstructed.
+
+2
+00:00:15.000 --> 00:00:30.000
+We can open the required checks and see the same pattern each time: expected behavior, observed behavior, result, blocking status, and the evidence references that support the conclusion.
+
+3
+00:00:30.000 --> 00:00:45.000
+Evidence groups the persisted artifacts by type. Command output, test results, Git diffs, policy results, and reports all remain portable rather than being trapped in a transient interface session.
+
+4
+00:00:45.000 --> 00:01:00.000
+Each artifact carries identity, provenance, size, and a cryptographic digest. The verified badge means the stored bytes still match the manifest Arbiter produced for this run.
+
+5
+00:01:00.000 --> 00:01:15.000
+History rebuilds the workload from append-only events: authorization, baseline, agent execution, candidate creation, failed validation, remediation, and the new full validation run.
+
+6
+00:01:15.000 --> 00:01:30.000
+The final event says ready to approve—not approved. Arbiter has reconstructed enough trustworthy evidence to make a recommendation. The last decision still belongs to a human.

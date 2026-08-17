@@ -1,0 +1,11 @@
+{
+  "classification": "DETERMINISTIC_FIXTURE_DEMONSTRATION",
+  "checkId": "VAL-013",
+  "title": "Authentication Preservation regression",
+  "severity": "CRITICAL",
+  "blocking": true,
+  "status": "HISTORICAL",
+  "expected": "Protected account endpoint rejects a request without a bearer token",
+  "observed": "Protected account endpoint returned success without a bearer token",
+  "resolution": "A new remediated candidate restored protected authentication and passed full revalidation"
+}
