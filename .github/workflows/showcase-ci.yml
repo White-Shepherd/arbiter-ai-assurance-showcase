@@ -1,0 +1,51 @@
+name: Public showcase CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  showcase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate required showcase files
+        shell: bash
+        run: |
+          set -euo pipefail
+          required_files=(
+            README.md
+            REPRODUCIBILITY.md
+            PUBLICATION-SCOPE.md
+            docs/architecture/security-model.md
+          )
+          for file in "${required_files[@]}"; do
+            if [[ ! -f "$file" ]]; then
+              printf 'Missing required file: %s\n' "$file" >&2
+              exit 1
+            fi
+          done
+
+      - name: Decode tracked Markdown as UTF-8
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import subprocess
+
+          tracked_paths = subprocess.check_output(["git", "ls-files", "-z"])
+          for path in tracked_paths.split(b"\0"):
+              if not path or not path.lower().endswith((b".md", b".markdown")):
+                  continue
+              with open(path, "rb") as markdown_file:
+                  markdown_file.read().decode("utf-8")
+          PY
