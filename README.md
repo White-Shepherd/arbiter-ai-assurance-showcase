@@ -1,5 +1,7 @@
 # Arbiter AI Assurance — Public Showcase
 
+[![Public documentation](https://github.com/White-Shepherd/arbiter-ai-assurance-showcase/actions/workflows/public-docs.yml/badge.svg)](https://github.com/White-Shepherd/arbiter-ai-assurance-showcase/actions/workflows/public-docs.yml)
+
 Arbiter is an independent assurance layer for AI-assisted software changes. It separates the agent that proposes a change from the controls that inspect the resulting Git candidate, preserve evidence, route remediation, and present a decision to a human approver.
 
 This public repository is a curated, view-only companion to the private engineering repository. It contains product explanations, architecture, demonstration media, selected fixture evidence, and a reproducibility guide. It intentionally does **not** contain Arbiter's implementation, protected validators, private operational records, credentials, or customer data.
@@ -11,6 +13,7 @@ The showcase also documents Mission Control, a separate read-only observability 
 - [Business use cases](docs/business/business-use-cases.md)
 - [System architecture](docs/architecture/system-architecture.md)
 - [Mission Control companion observability](docs/architecture/mission-control-companion.md)
+- [Mission Control integration roadmap](docs/architecture/mission-control-integration-roadmap.md)
 - [Trust Loop walkthrough](docs/architecture/trust-loop-walkthrough.md)
 - [Security model](docs/architecture/security-model.md)
 - [Validation model](docs/validation/validation-model.md)

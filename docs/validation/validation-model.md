@@ -86,4 +86,4 @@ The evidence-binding layer rejects missing or duplicate correlation references b
 
 Tests cover wrong target, dirty baseline, unauthorized/protected changes, candidate mismatch, protected-check manipulation, remediation regression, remediation exhaustion, infrastructure failure, missing evidence, tampering, contradictory reconstruction, stale decisions, duplicate decisions, and invalid actors.
 
-See the machine-readable [catalog](../validation/catalog/tests.json) and [validation engine contract](../architecture/validation-engine.md).
+The private engineering repository retains the machine-readable test catalog and validation-engine contract; they are intentionally outside this public showcase.

@@ -91,4 +91,4 @@ Phase 1 is tamper-evident, not tamper-proof. It detects changed or missing artif
 
 Phase 1 does not provide signatures, trusted timestamps, hardware-backed keys, independent witnesses, immutable cloud storage, or comprehensive secret detection.
 
-See [evidence storage](../architecture/evidence-storage.md) and ADR-014 through ADR-018.
+The private engineering repository retains the detailed evidence-storage specification and ADR-014 through ADR-018; they are intentionally outside this public showcase.

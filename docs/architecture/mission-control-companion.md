@@ -6,6 +6,8 @@ Mission Control is a separate, read-only observability interface for repository-
 
 Mission Control is not part of Arbiter's Phase 1 Trust Loop implementation. No direct Harbor Ridge or Arbiter integration is claimed in this showcase. The systems share assurance principles—authoritative evidence, explicit provenance, preserved history, and human authority—but retain separate repositories, contracts, and security boundaries.
 
+> **Validation snapshot:** Mission Control commit `07d12e9236fa718bdfd353067570176d0323d971`, validated 2026-08-20. Counts and capability statements below describe that exact repository state.
+
 ## Current capabilities
 
 - Deterministic Demo Mode for a clearly labeled synthetic workflow.
@@ -64,6 +66,8 @@ The current repository-controlled validation profile covers:
 - path-boundary, provenance, provider, API, and UI lifecycle contracts.
 
 These results validate the repository-controlled synthetic profile. They do not represent a production deployment, authenticated multi-user environment, or completed Arbiter integration.
+
+The proposed path from this read-only boundary to governed agent orchestration is described in the [Mission Control integration roadmap](mission-control-integration-roadmap.md).
 
 ## Deliberate limits
 
