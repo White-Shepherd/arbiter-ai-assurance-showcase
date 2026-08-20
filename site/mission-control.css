@@ -1,0 +1,50 @@
+.companion-section {
+  padding: 110px max(7vw, 36px);
+  background: #e8f4f3;
+}
+
+.companion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  margin-bottom: 28px;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.companion-grid article {
+  padding: 30px;
+  background: white;
+}
+
+.companion-grid strong {
+  color: var(--teal);
+  font-size: 21px;
+}
+
+.companion-grid p {
+  color: var(--muted);
+}
+
+.companion-boundary {
+  max-width: 920px;
+  padding: 18px;
+  border-left: 5px solid var(--teal);
+  background: white;
+}
+
+.companion-section > .text-link {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--teal);
+}
+
+@media (max-width: 760px) {
+  .companion-section {
+    padding: 70px 24px;
+  }
+
+  .companion-grid {
+    grid-template-columns: 1fr;
+  }
+}

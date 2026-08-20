@@ -9,6 +9,7 @@
 - Captioned demonstration videos
 - Selected, minimized fixture evidence
 - Reproducibility instructions for the public materials
+- A public architectural and validation summary of the separate Mission Control observability companion
 
 ## Deliberately excluded
 
@@ -18,5 +19,6 @@
 - Raw command output and machine-specific metadata
 - Credentials, tokens, customer data, and personal information
 - Internal commercial plans and unpublished roadmap details
+- Mission Control source code, private fixtures, complete validation output, and any unimplemented Arbiter integration
 
 The boundary is intentional: public review should make Arbiter's claims understandable without weakening the controls or disclosing material that has not completed licensing, security, and intellectual-property review.

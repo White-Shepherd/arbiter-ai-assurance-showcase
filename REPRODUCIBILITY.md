@@ -25,6 +25,18 @@ Read `evidence/sample-run/README.md` and the adjacent JSON summaries. Confirm th
 4. The full validation suite reruns and passes.
 5. Arbiter reaches `READY_TO_APPROVE` while the human decision remains `PENDING`.
 
+## Review the Mission Control publication
+
+Read `docs/architecture/mission-control-companion.md` and confirm that it keeps the following boundaries explicit:
+
+1. Mission Control is a separate observability companion, not part of Arbiter's Phase 1 Trust Loop implementation.
+2. Demo and Live Local providers share canonical presentation models.
+3. Live Local access remains loopback-only, allowlisted, GET-only, and read-only.
+4. Observed, derived, Demo, and unavailable evidence remain distinguishable.
+5. The published validation counts describe a repository-controlled synthetic profile, not a production deployment.
+
+The Mission Control implementation and complete validation corpus are not included in this public showcase, so the stated implementation checks cannot be rerun from this repository.
+
 ## Limits
 
 The selected evidence is a minimized explanatory projection of a deterministic fixture run. It is not a substitute for the complete hashed evidence manifest, append-only audit ledger, protected controls, or an independent execution of the private implementation.
