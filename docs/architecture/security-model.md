@@ -62,4 +62,4 @@ The policy package detects manifest changes and lockfile inconsistency heuristic
 
 Do not open a public issue containing exploit details or secrets. Use GitHub's private vulnerability reporting or contact the repository owner through a private channel. Include affected commit, reproduction steps, expected/observed behavior, and whether evidence or authorization boundaries are affected.
 
-See [SECURITY.md](../../SECURITY.md) and the [trust boundary](../architecture/trust-boundary.md).
+The private engineering repository retains the operational `SECURITY.md` and detailed trust-boundary specification; they are intentionally outside this public showcase.

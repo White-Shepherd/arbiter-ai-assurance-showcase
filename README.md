@@ -1,13 +1,19 @@
 # Arbiter AI Assurance — Public Showcase
 
+[![Public documentation](https://github.com/White-Shepherd/arbiter-ai-assurance-showcase/actions/workflows/public-docs.yml/badge.svg)](https://github.com/White-Shepherd/arbiter-ai-assurance-showcase/actions/workflows/public-docs.yml)
+
 Arbiter is an independent assurance layer for AI-assisted software changes. It separates the agent that proposes a change from the controls that inspect the resulting Git candidate, preserve evidence, route remediation, and present a decision to a human approver.
 
 This public repository is a curated, view-only companion to the private engineering repository. It contains product explanations, architecture, demonstration media, selected fixture evidence, and a reproducibility guide. It intentionally does **not** contain Arbiter's implementation, protected validators, private operational records, credentials, or customer data.
+
+The showcase also documents Mission Control, a separate read-only observability companion for repository-driven engineering workflows. Mission Control is not presented as part of Arbiter's Phase 1 implementation, and no direct Arbiter integration is claimed.
 
 ## Start here
 
 - [Business use cases](docs/business/business-use-cases.md)
 - [System architecture](docs/architecture/system-architecture.md)
+- [Mission Control companion observability](docs/architecture/mission-control-companion.md)
+- [Mission Control integration roadmap](docs/architecture/mission-control-integration-roadmap.md)
 - [Trust Loop walkthrough](docs/architecture/trust-loop-walkthrough.md)
 - [Security model](docs/architecture/security-model.md)
 - [Validation model](docs/validation/validation-model.md)
@@ -25,6 +31,8 @@ The demonstration uses deterministic fixtures. Fixture results illustrate Arbite
 ## Current status
 
 The private Phase 1 implementation has passed its independent acceptance workflow on a clean Windows checkout. This showcase documents that design and presents selected results, but it cannot reproduce the private implementation by itself.
+
+Mission Control's repository-controlled synthetic profile currently passes 31 automated tests, lint, type check, build, 13 representative GET routes, 52 mutation-method rejection probes, non-mutation verification, and freshness verification. These are validation results for the companion interface—not evidence of a production deployment or a completed Arbiter integration.
 
 ## Rights
 

@@ -111,4 +111,4 @@ Wrong target, dirty baseline, infrastructure errors, remediation exhaustion, evi
 - Readiness requires a verified evidence package and audit ledger.
 - Approval requires current candidate and validation identities plus immediate integrity reverification.
 
-See the [ADRs](../decisions), [trust boundary](../architecture/trust-boundary.md), and [domain model](../architecture/domain-model.md).
+The private engineering repository retains the full ADR set, trust-boundary specification, and domain model; they are intentionally outside this public showcase.
